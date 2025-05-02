@@ -39,7 +39,8 @@ export default function Home() {
   const [selectedGoal, setSelectedGoal] = useState<Goal | null>(null);
   const [newComment, setNewComment] = useState('');
   const [newMilestoneTitle, setNewMilestoneTitle] = useState('');
-  const [currentUser, setCurrentUser] = useState('User');
+  const [currentUser] = useState('User');
+  
   const [editingGoal, setEditingGoal] = useState<Goal | null>(null);
 
   // Load sample data on first render
@@ -228,6 +229,7 @@ export default function Home() {
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold">Goal Tracker</h1>
           <div className="flex items-center gap-2">
+
           </div>
         </div>
       </header>
