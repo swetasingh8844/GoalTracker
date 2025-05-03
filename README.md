@@ -2,8 +2,7 @@
 
 A modern web application for setting, tracking, and achieving personal or team goals with visual progress indicators, milestone tracking, and a feedback system.
 
-![Goal Tracker Dashboard](![https://github.com/user-attachments/assets/17d2b23d-b160-46cd-b606-6cd751417745](https://github.com/user-attachments/assets/17d2b23d-b160-46cd-b606-6cd751417745)
-)
+![image](https://github.com/user-attachments/assets/17d2b23d-b160-46cd-b606-6cd751417745)
 
 ## Project Overview
 
