@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Goal-Oriented Progress Tracker
 
-## Getting Started
+A modern web application for setting, tracking, and achieving personal or team goals with visual progress indicators, milestone tracking, and a feedback system.
 
-First, run the development server:
+![Goal Tracker Dashboard](![image](https://github.com/user-attachments/assets/17d2b23d-b160-46cd-b606-6cd751417745)
+)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Project Overview
+
+Goal-Oriented Progress Tracker is a user-friendly application designed to help individuals and teams visualize and track progress toward their objectives. The application features an intuitive dashboard with goal cards, visual progress bars, milestone tracking, and a comment system for feedback and accountability.
+
+This tracker provides a clear view of achievements and upcoming tasks in one centralized interface.
+
+## Technologies Used
+
+- **TypeScript** - For type-safe code
+- **Next.js** - React framework with server-side rendering
+- **Tailwind CSS** - Utility-first CSS framework for styling
+- **React Hooks** - For state management
+- **Lucide React** - For beautiful SVG icons
+
+## Features
+
+- 🎯 **Goal Cards with Progress Bars** - Visual representation of progress
+- 📊 **Progress Tracking** - Both manual updates and automatic calculation based on milestone completion
+- ✅ **Milestone System** - Break down goals into actionable steps
+- 📝 **Comment & Feedback System** - Collaborate and provide encouragement
+- 🏆 **Achievement Tracking** - Monitor completed milestones
+- 📱 **Responsive Design** - Works on desktop and mobile devices
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/goal-tracker.git
+   cd goal-tracker
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:3000` to see the application running.
+
+## Usage Instructions
+
+### Creating Goals
+1. Click the "Add Goal" button in the goals panel
+2. Fill in the title, description, and due date
+3. Click "Save" to create your new goal
+
+### Tracking Progress
+- **Manual Updates**: Use the progress slider in the goal details view
+- **Milestone-Based**: Check off milestones to automatically update progress
+
+### Adding Milestones
+1. Select a goal to view its details
+2. Enter a milestone title in the input field under the "Milestones" section
+3. Click "Add" to create the milestone
+4. Check off milestones as you complete them
+
+### Providing Feedback
+1. Select a goal to view its details
+2. Scroll down to the "Comments & Feedback" section
+3. Enter your comment in the text area
+4. Click "Post" to add your comment
+
+### Editing & Deleting Goals
+- Click the edit (pencil) icon on a goal card to modify its details
+- Click the delete (trash) icon to remove a goal
+
+## Project Structure
+
+```
+goal-tracker/
+├── app/
+│   ├── page.tsx          # Main application component
+│   ├── layout.tsx        # Root layout component
+│   └── globals.css       # Global styles
+├── public/               # Static assets
+├── package.json          # Dependencies and scripts
+└── README.md             # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Customization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application can be extended in several ways:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Backend Integration**: Connect to a database for persistent storage
+- **User Authentication**: Add login functionality for user-specific goals
+- **Advanced Reporting**: Implement statistics and charts for better insights
+- **Notifications**: Add reminders for upcoming deadlines
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Your Name - [swetasingh8844@gmail.com](mailto:swetasingh8844@gmail.com)
 
-## Deploy on Vercel
+GitHub: [https://github.com/swetasingh8844](swetasingh8844)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Happy goal tracking! 🎯This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Deployment Link:
+
+[https://goal-tracker-425tbidex-sweta-singhs-projects.vercel.app/](https://goal-tracker-425tbidex-sweta-singhs-projects.vercel.app/)
+
